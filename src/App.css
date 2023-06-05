@@ -10,6 +10,7 @@ body {
 }
 .airbnb {
   max-width: 37rem;
+  /* max-width: 80%; */
   margin: 0 auto;
   background: white;
   border-radius: 9px;
@@ -28,6 +29,7 @@ nav {
   gap: 10px;
   justify-content: center;
   padding-top: 4rem;
+  flex-wrap: wrap;
 }
 .div1 {
   display: flex;
