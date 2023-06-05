@@ -36,6 +36,11 @@ export default function Grid() {
                 <img src={image8}></img>
                 <img src={image9}></img>
             </div>
+
+            <div className='des--intro'>
+                <h1>Online Experiences</h1>
+                <p className='description'>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
+            </div>
         </section>
     )
 }

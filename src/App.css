@@ -7,6 +7,7 @@
 body {
   padding: 7rem 0;
   background: rgba(238, 130, 238, 0.356);
+  font-family: 'Poppins', sans-serif;
 }
 .airbnb {
   max-width: 37rem;
@@ -58,4 +59,48 @@ nav {
   flex-direction: column;
   gap: 10px;
   margin-top: 1rem;
+}
+
+.des--intro {
+  padding: 3em;
+}
+h1 {
+  padding-bottom: 0.3em;
+  font-size: 1.9em;
+  max-width: 61%;
+  font-weight: bolder;
+}
+.description {
+  font-size: .8rem;
+  max-width: 53%;
+  font-weight: lighter;
+  line-height: 130%;
+}
+
+.card1 {
+  max-width: 36%;
+  max-width: 13rem;
+  /* border: 1px solid firebrick; */
+}
+
+.card--img {
+  max-width: 13rem;
+}
+.card--stats {
+  display: flex;
+  font-size: .8rem;
+  gap: 3px;
+  /* align-items: center; */
+}
+.star {
+  height: 0.8rem;
+  margin-top: 1px;
+}
+.grey {
+  color: #918e9bd0;
+  font-size: 100;
+}
+p {
+  font-size: 0.77rem;
+  line-height: 170%;
 }
