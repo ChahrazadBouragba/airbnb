@@ -3,7 +3,6 @@ import star from '../img/Star 1.png'
 
 export default function Card(props) {
     return (
-        <div className='cards--container'>
             <div className='card1'>
                { props.availability === 0 ? <span className='card--availability'>Sold Out</span> :  <span className='card--availability'>Online</span>}
                 <img className='card--img' src={props.img}></img>
@@ -20,6 +19,5 @@ export default function Card(props) {
                     / person
                 </p>
             </div>
-        </div>
     )
     }

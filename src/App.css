@@ -81,7 +81,7 @@ h1 {
 
 .container--wrapper {
   display: flex;
-  gap: 2.08rem;
+  gap: 2rem;
   /* flex-wrap: wrap; */
   overflow-x: scroll;
   scroll-snap-type: mandatory;
@@ -97,23 +97,21 @@ h1 {
   display: none;
 }
 
-.cards--container {
-  width: 36%;
-  max-width: 36%;
-  /* border: 2px solid lightgreen; */
-}
 .card1 {
-  width: 100%;
+  /* width: 100%;
   max-width: 13rem;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: nowrap; */
+
+  /* border: 1px solid slateblue; */
 }
 
 .card--img {
-  width: 100%;
+  max-width: 11rem;
+  height: 15rem;
   display: block;
   margin-bottom: 0.5rem;
+  border-radius: 9px;
   /* max-width: 13rem; */
 }
 .card--availability {
@@ -132,6 +130,7 @@ h1 {
   display: flex;
   font-size: .8rem;
   gap: 3px;
+  margin-bottom: 0.2rem;
   /* align-items: center; */
 }
 .star {
@@ -144,5 +143,7 @@ h1 {
 }
 p {
   font-size: 0.77rem;
-  line-height: 170%;
+  line-height: 130%;
+  white-space: wrap;
+  margin-bottom: 0.5rem;
 }
