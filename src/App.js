@@ -3,9 +3,12 @@ import Navbar from "./components/Navbar";
 import Grid from "./components/grid";
 import Card from "./components/Card";
 
-import cardImg1 from "./img/card1.png";
-import cardImg2 from "./img/wedding-photography 1.png";
-import cardImg3 from "./img/mountain-bike 1.png";
+import cardImg1 from "./img/experience1.jpg";
+import cardImg2 from "./img/experience2.jpg";
+import cardImg3 from "./img/experience3.jpg";
+import cardImg4 from "./img/experience4.jpg";
+import cardImg5 from "./img/experience5.jpg";
+import cardImg6 from "./img/experience6.jpg";
 
 function App() {
   return (
