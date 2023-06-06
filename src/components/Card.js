@@ -1,21 +1,22 @@
-import card1 from '../img/card1.png'
+// import card1 from '../img/card1.png'
 import star from '../img/Star 1.png'
 
-export default function Card() {
+export default function Card(props) {
     return (
         <div className='cards--container'>
             <div className='card1'>
-                <img className='card--img' src={card1}></img>
+               { props.availability === 0 ? <span className='card--availability'>Sold Out</span> :  <span className='card--availability'>Online</span>}
+                <img className='card--img' src={props.img}></img>
                 <div className='card--stats'>
                     <img className='star' src={star}></img>
                     <p>
-                        <span>5.0 </span>
-                        <span className='grey'>(6)•USA</span>
+                        <span>{props.rating} </span>
+                        <span className='grey'>{props.reviewCount}•{props.country}</span>
                     </p>
                 </div>
-                <p>Life lessons with Katie Zaferes</p>
+                <p>{props.title}</p>
                 <p>
-                    <b>From $136 </b>
+                    <b>From ${props.price} </b>
                     / person
                 </p>
             </div>
